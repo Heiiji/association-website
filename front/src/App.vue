@@ -1,0 +1,36 @@
+<template>
+  <div id="app">
+    <Menu/>
+    <router-view/>
+  </div>
+</template>
+
+<script>
+    import Menu from './components/menu.vue'
+    import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'app',
+  components: {
+    HelloWorld,
+      Menu
+  }
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+  html, body {
+    font-family: 'Comfortaa';
+  }
+  a {
+    text-decoration: none;
+  }
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
