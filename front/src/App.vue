@@ -20,11 +20,16 @@ export default {
 
 <style>
   @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+  @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
   html, body {
     font-family: 'Comfortaa';
   }
   a {
     text-decoration: none;
+  }
+  h1, h2, h3 {
+    font-family: 'Lobster Two';
+    font-size: 1.6em;
   }
 #app {
   -webkit-font-smoothing: antialiased;

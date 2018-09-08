@@ -5,19 +5,52 @@
         <h3>Prochain vide-grenier</h3>
         <p>Venez nombreux le 8 septembre 2018 à l'association !!!</p>
       </div>
-      <div class="cardSquare">
-        <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0181.jpg" />
-        <h3>Guide de l'adoption</h3>
-        <div class="but">en savoir plus</div>
+      <router-link to="/guide">
+        <div class="cardSquare">
+          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0181.jpg" />
+          <h3>Guide de l'adoption</h3>
+          <div class="but">en savoir plus</div>
+        </div>
+      </router-link>
+      <router-link to="/pathologie">
+        <div class="cardSquare">
+          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0147.jpg" />
+          <h3>Les pathologies</h3>
+          <div class="but">en savoir plus</div>
+        </div>
+      </router-link>
+      <div class="card" style="padding: 0px; position: relative; height: 150px; background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/81/2857a6bb1811e64.jpg') center; background-size: cover; cursor: pointer">
+        <h3 style="position: absolute; top: 20%; left: 48%; color: white; font-size: 2em; text-shadow: 1px 1px 2px #000;">J'adopte !</h3>
       </div>
-      <div class="cardSquare">
-        <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/03/praline.jpg" />
-        <h3>Les pathologies</h3>
-        <div class="but">en savoir plus</div>
+      <div class="card" style="padding: 10px; position: relative; center; background-size: cover; cursor: pointer">
+        <h3>Les 10 commandements du chat</h3>
+        <ul style="display: inline-block; text-align: left">
+          <li>Sans panier ne me transporteras.</li>
+          <li>Tous les 4 mois vermifuge tu me donneras.</li>
+          <li>Propre de naissance, régulièrement ma litière tu changeras.</li>
+          <li>Rappel de vaccinations chaque année tu n’oublieras.</li>
+          <li>Des câlins en veux-tu en voilà tous les jours tu me feras.</li>
+          <li>Mes bêtises tu me pardonneras.</li>
+          <li>Bon équilibre de nourriture, croquettes eau fraîche tu  m’accorderas.</li>
+          <li>De lait point ne me donneras.</li>
+          <li>Solitude tu combleras et musique ou télé tu me laisseras.</li>
+          <li>Chaque soir d’une page de livre « le chat révélé » de Desmond Morris tu te nourriras.</li>
+        </ul>
       </div>
-      <div class="card" style="padding: 0px; position: relative; height: 100px; background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/81/2857a6bb1811e64.jpg') center; background-size: cover; cursor: pointer">
-        <h3 style="position: absolute; top: 25%; left: 48%; color: white; text-shadow: 1px 1px #000;">J'adopte !</h3>
-      </div>
+      <router-link to="/sterilisation">
+        <div class="cardSquare">
+          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2017/05/WP_20180204_15_57_20_Pro.jpg" />
+          <h3>La stérilisation</h3>
+          <div class="but">en savoir plus</div>
+        </div>
+      </router-link>
+      <router-link to="/sauvage">
+        <div class="cardSquare">
+          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2017/05/WP_20180204_11_22_25_Pro.jpg" />
+          <h3>Chats errants / libres</h3>
+          <div class="but">en savoir plus</div>
+        </div>
+      </router-link>
     </div>
     <div class="dCol">
       <div class="card">
@@ -62,6 +95,15 @@ export default {
     width: calc(30% - 20px);
     float: right;
     margin: 10px;
+  }
+
+  @media (max-width: 1270px) {
+    .dCol {
+      display: none;
+    }
+    .gCol {
+      width: 100%;
+    }
   }
   .card {
     background-color: rgba(230, 230, 230, 0.9);

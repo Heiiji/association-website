@@ -30,10 +30,13 @@
 <style scoped>
     .menu {
         position: fixed;
+        z-index: 10;
         top: 0px;
-        left: 20%;
-        width: 60%;
+        left: 15%;
+        width: 70%;
         height: 50px;
+        padding-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.98);
     }
     .menu img {
         margin: 10px;
