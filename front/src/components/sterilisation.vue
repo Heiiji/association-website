@@ -2,22 +2,59 @@
     <div class="main">
         <div class="gCol">
             <div class="card">
-                <h3>Intérêts</h3>
-                <h3>Intérêts</h3>
+                <p style="text-align: left">
+                    RAPPEL : On a trop souvent tendance à considérer nos animaux comme des personnes, or ce n’est pas le cas :
+                </p>
+                <ul style="text-align: left">
+                    <li>
+                        Ils ne fonctionnent pas comme nous et n’ont pas du tout les mêmes préoccupations ni le même ressenti sur les choses de la vie.
+                    </li>
+                    <li>
+                        Une chatte est guidée par son instinct animal et ses hormones : en dehors des périodes de chaleur, tout intérêt reproducteur disparaît :
+                    </li>
+                    <li>
+                        Une chatte n’a pas « envie » d’avoir des petits. Il est donc faux de croire qu’il est bon pour son équilibre mental d’avoir fait une portée.
+                    </li>
+                    <li>
+                        La stérilisation ne « diminue » pas une chatte, cela ne la mutile pas, elle ne s’en rend pas compte.
+                    </li>
+                    <li>
+                        Autre idée reçue : faire une portée n’augmente pas l’espérance de vie d’une chatte, au contraire.
+                    </li>
+                    <li>
+                        Une chatte n’a pas besoin de faire une portée pour être en bonne santé ni pour être heureuse.
+                    </li>
+                </ul>
             </div>
             <div class="card">
-                <h3>Chats à réserver (non sevrés)</h3>
-                <h3>Il n'y en a pas pour le moment</h3>
+                <h3 style="color: darkgreen;">Intérêts</h3>
+                <ul style="text-align: left">
+                    <li>La suppression des chaleurs et des comportements sexuels :
+
+                        Finies les bagarres en période de chaleurs dont ils reviennent infestés de parasites, griffés et porteurs d’abcès. Avec la fin des chaleurs chez les femelles disparaît également le concert de miaulements graves et rauques pour attirer les mâles du secteur.. Finies aussi les fugues pendant lesquelles ils vadrouillent sur les routes au risque de se faire écraser.</li>
+                    <li>Diminution du risque de maladies de l’appareil reproducteur : cancer des testicules chez le mâle, des ovaires ou mammaire chez la femelle.
+
+                        Ces maladies font souffrir et nécessitent des traitements lourds et onéreux sans garantie de résultat.</li>
+                    <li>La diminution du risque de tumeurs mammaires</li>
+                    <li>La diminution du risque de pathologies utérines (pyromètre, métrite…)</li>
+                    <li>La diminution du risque de transmission du virus du sida félin (transmis principalement par les morsures, griffures et les rapports sexuels) pour lequel il n’existe aucun vaccin, et de la leucose.</li>
+                    <li>La suppression du risque de gestation non désirée (de nombreux chatons, plusieurs fois par an…)</li>
+                    <li>Un chat mâle castré est plus calme, son territoire moins étendu. Il a tendance à limiter son marquage urinaire (très odorant !) et les griffades.</li>
+                </ul><br/><br/>
+                <p style="text-align: left">
+                    Bien plus qu’un acte simple de suppression des chaleurs, la stérilisation est donc bien un acte important de prévention médicale.
+<br/><br/>
+                    Il est important de noter que le risque d’apparition de tumeurs mammaires est d’autant plus faible que la stérilisation est réalisée tôt (l’idéal étant avant les 1ères chaleurs).</p>
+                <p style="text-align: left">
+                    Notez bien que la contraception médicale (pilule en cachet ou injection de contraceptif) n’empêche pas les maladies citées ci-dessus. Au contraire, elle provoque un dérèglement hormonal et des pathologies graves peuvent apparaître plus rapidement. Faire stériliser une chatte avant ses premières chaleurs c’est lui éviter de graves maladies.
+                </p>
             </div>
-        </div>
-        <div class="dCol">
             <div class="card">
-                <h3>information</h3>
-                <p>Une participation financière  de seulement 60 € pour les frais d’adoption engagés  est demandée pour un animal testé Fiv et leucose(+ 6 mois) , stérilisé, vacciné, identifié.</p>
-                <img style="width: 90%" alt="zooplus" src="http://www.chat-alors.fr/wp-content/uploads/2017/06/adoption-300x107.jpg" />
-            </div>
-            <div class="card">
-                <h3>Contact</h3>
+                <h3 style="color: darkred">Inconvénients</h3>
+                <ul style="text-align: left">
+                    <li>La stérilisation ne présente que peu d’inconvénients. Le seul véritable réside dans une augmentation de l’appétit de la chatte après la stérilisation. Cela peut donc induire une prise de poids si l’on ne surveille pas son alimentation.</li>
+
+                </ul>
             </div>
         </div>
     </div>
@@ -39,7 +76,7 @@
     }
     .gCol {
         display: inline-block;
-        width: calc(70% - 20px);
+        width: 100%;
         margin: 10px;
     }
     .dCol {

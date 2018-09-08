@@ -15,7 +15,7 @@
       <router-link to="/pathologie">
         <div class="cardSquare">
           <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0147.jpg" />
-          <h3>Les pathologies</h3>
+          <h3>Les pathologies et vaccins</h3>
           <div class="but">en savoir plus</div>
         </div>
       </router-link>
