@@ -1,19 +1,25 @@
 <template>
-    <div class="menu">
-        <router-link to="/">
-            <img alt="logo" src="../assets/logo.jpeg"/>
-        </router-link>
-        <div class="container">
-            <router-link to="/adoption">
-                <span class="menuIter">Adopter</span>
+    <div style="background-color: white; position: fixed; top: 0px; left: 0px; width: 100%; height: 70px; z-index: 6; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);">
+        <div class="menu">
+            <router-link to="/">
+                <img alt="logo" src="../assets/logo.jpeg"/>
+                <span style="position: absolute; left: 220px; bottom: 10px; color: black; font-size: 0.8em;">(Association loi 1901)</span>
             </router-link>
-            <router-link to="/aide">
-                <span class="menuIter">Informations</span>
-            </router-link>
-            <router-link to="/aide">
-                <span class="menuIter">Nous aider</span>
-            </router-link>
-            <img alt="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" />
+            <div class="container">
+                <router-link to="/">
+                    <span class="menuIter">Accueil</span>
+                </router-link>
+                <router-link to="/adoption">
+                    <span class="menuIter">Adopter</span>
+                </router-link>
+                <router-link to="/aide">
+                    <span class="menuIter">Informations</span>
+                </router-link>
+                <router-link to="/aide">
+                    <span class="menuIter">Nous aider</span>
+                </router-link>
+                <img alt="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" />
+            </div>
         </div>
     </div>
 </template>

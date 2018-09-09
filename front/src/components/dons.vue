@@ -6,16 +6,36 @@
                 Une participation financière  de seulement 60 € pour les frais d’adoption engagés  est demandée pour un animal testé Fiv et leucose(+ 6 mois) , stérilisé, vacciné, identifié.</p>
             <h3 style="margin-top: 40px">Faire un don <span style="color: black; font-size: 0.5em;">(deductible des impots)</span> :</h3>
             <ul>
+                <li>Devenir famille d'accueil
+                    <p style="margin-left:100px">Renseignements à l’adresse de l’association ou bien lors de vos visites aux vide greniers</p>
+                </li>
+                <li>Bénévolat
+                    <p style="margin-left:100px">Ce n’est pas un travail journalier dont nous avons besoin, mais une aide ponctuelle.
+
+                        Notamment pour la préparation des vides greniers, la mise en place, l’étiquetage, le nettoyage des objets, la mise en cartons.
+
+                        Quelques heures aux moments voulus.. Et vous serez prévenu à l’avance des dates.
+                        Nous avons aussi besoin pour la socialisation des chatons de gens pouvant venir s’en occuper, éventuellement de familles d’accueil dans les moments d’affluence..
+
+                        Renseignez-vous, rejoignez-nous, d’avance merci !
+
+                        N’hésitez pas, il n’y a pas de grande ou petite aide, une heure de temps en temps, cela nous va très bien !</p>
+                </li>
+                <li>Legs
+                    <p style="margin-left:100px">Vous n’avez pas ou plus de famille, plutôt que de grossir les caisses de l’état, vous pouvez donner à une association comme la notre sans aucun frais de succession :
+
+                        Faire un legs ou une donation. En contre partie, nous nous occuperons, si vous en avez,  de vos animaux après votre départ.</p></li>
                 <li>
-                    Par cheque
+                    Donation par chèque
                     <p style="margin-left:100px">à l’adresse de l’association ou bien lors de vos visites aux vide greniers</p>
                 </li>
-                <li>En espèce
+                <li>Donation en espèces
                     <p style="margin-left:100px">à déposer lors des vide greniers</p></li>
-                <li>Via paypal<br/>
+                <li>Donation via paypal<br/>
                     <img style="margin-left: 100px; margin-top: 10px" alt="paypal" src="https://pouruneautreeconomie.fr/wp-content/uploads/2017/05/paypal-avis.png" width="100" />
                 </li>
             </ul>
+            <p>Ouverture de l'association (85 route de Beauvoir, 85300 Pont habert / Sallertaine) : <br/> Mardi et Mercredi, entre 14H30 et 17H30 ou sur Rendez-vous.</p>
             <h3 style="margin-top: 100px">Un grand merci par avance de la part de tous nos petits félins ainsi que de tous les membres de l’association  </h3>
         </div>
     </div>

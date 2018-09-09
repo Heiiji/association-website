@@ -2,8 +2,8 @@
   <div class="main">
     <div class="gCol">
       <div class="card">
-        <h3>Prochain vide-grenier</h3>
-        <p>Venez nombreux le 8 septembre 2018 à l'association !!!</p>
+        <h3>Description</h3>
+        <p>blabla</p>
       </div>
       <router-link to="/guide">
         <div class="cardSquare">
@@ -19,9 +19,11 @@
           <div class="but">en savoir plus</div>
         </div>
       </router-link>
-      <div class="card" style="padding: 0px; position: relative; height: 150px; background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/81/2857a6bb1811e64.jpg') center; background-size: cover; cursor: pointer">
-        <h3 style="position: absolute; top: 20%; left: 48%; color: white; font-size: 2em; text-shadow: 1px 1px 2px #000;">J'adopte !</h3>
-      </div>
+      <router-link to="/adoption">
+        <div class="card" style="padding: 0px; position: relative; height: 150px; background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/81/2857a6bb1811e64.jpg') center; background-size: cover; cursor: pointer">
+          <h3 style="position: absolute; top: 20%; left: 48%; color: white; font-size: 2em; text-shadow: 1px 1px 2px #000;">J'adopte !</h3>
+        </div>
+      </router-link>
       <div class="card" style="padding: 10px; position: relative; center; background-size: cover; cursor: pointer">
         <h3>Les 10 commandements du chat</h3>
         <ul style="display: inline-block; text-align: left">
@@ -51,19 +53,35 @@
           <div class="but">en savoir plus</div>
         </div>
       </router-link>
+      <div class="card" style="padding: 0px; position: relative; height: 150px; background: url('https://static.wamiz.fr/images/news/facebook/trouverchatonrect-fb-56e15ff28c6fc.jpg') center; background-size: cover; cursor: pointer">
+        <h3 style="position: absolute; top: 20%; left: 35%; color: white; font-size: 2em; text-shadow: 1px 1px 2px #000;">Devenez famille d'accueil</h3>
+      </div>
     </div>
     <div class="dCol">
       <div class="card">
         <h3>Prochaines dates</h3>
-        <p style="text-align: left; margin-left: 10px;">8 septembre 2018 : Vide-grenier</p>
         <p style="text-align: left; margin-left: 10px;">13 octobre 2018 : Vide-grenier</p>
+        <p style="text-align: left; margin-left: 10px;">10 novembre 2018 : Vide-grenier</p>
+        <p style="text-align: left; margin-left: 10px;">8 decembre 2018 : Vide-grenier</p>
         <img src="http://www.animauxdico.com/img/charte_graphique/chat.jpg" alt="ico" style="height: 100px; width: 100px; border-radius: 100px; margin: 10px; opacity: 0.9;"/>
+        <p>85 route de beauvoir<br/>85300 Pont habert / Sallertaine</p>
       </div>
       <div class="card">
         <h3>Partenariat</h3>
-        <p>Acheter sur zooplus.fr pour aider l'assiociation. Entre 3% et 4% du prix de vos achats seront reversés à l'association.</p>
-        <img alt="zooplus" src="https://marketing.net.zooplus.fr/ts/i3971185/tsv?amc=con.zooplus.382132.395161.16711&tst=!!TIMESTAMP!!" />
+        <p>Achetez sur zooplus.fr pour aider l'assiociation. Entre 3% et 4% du prix de vos achats seront reversés à l'association.</p>
+        <img alt="zooplus" src="https://marketing.net.zooplus.fr/ts/i3971185/tsv?amc=con.zooplus.382132.395161.16711&tst=!!TIMESTAMP!!" style="border-radius: 2px;" />
       </div>
+      <div class="card">
+        <h3 style="color: darkred;">L'abandon</h3>
+        <p style="text-align: justify; text-justify: inter-word;">Le code pénal considère l’abandon comme un acte de cruauté, au même titre que la maltraitance animale.
+<br/><br/>
+          <div style="text-align: center">
+            <img alt="zooplus" src="../assets/sad.png" style="border-radius: 2px;  width: 100px;" />
+          </div>
+        <br/>
+        <p style="text-align: justify; text-justify: inter-word;">
+          L’article 521-1 du Code pénal établit que « exercer des sévices graves, ou de nature sexuelle, ou de commettre un acte de cruauté envers un animal domestique, ou apprivoisé, ou tenu en captivité, est puni de deux ans d’emprisonnement et de 30 000 euros d’amende.</p></p>
+</div>
     </div>
   </div>
 </template>

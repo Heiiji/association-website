@@ -21,8 +21,14 @@ export default {
 <style>
   @import url('https://fonts.googleapis.com/css?family=Comfortaa');
   @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+  html {
+    background: #F7F8F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
   html, body {
     font-family: 'Comfortaa';
+    min-height: 100%;
   }
   a {
     text-decoration: none;

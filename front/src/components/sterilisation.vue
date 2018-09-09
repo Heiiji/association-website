@@ -2,6 +2,7 @@
     <div class="main">
         <div class="gCol">
             <div class="card">
+                <img alt="icon" src="../assets/stérilisation.png" style="float: right; width: 150px; margin: 20px"/>
                 <p style="text-align: left">
                     RAPPEL : On a trop souvent tendance à considérer nos animaux comme des personnes, or ce n’est pas le cas :
                 </p>
