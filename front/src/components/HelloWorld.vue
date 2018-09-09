@@ -64,7 +64,7 @@
         <p style="text-align: left; margin-left: 10px;">10 novembre 2018 : Vide-grenier</p>
         <p style="text-align: left; margin-left: 10px;">8 decembre 2018 : Vide-grenier</p>
         <img src="http://www.animauxdico.com/img/charte_graphique/chat.jpg" alt="ico" style="height: 100px; width: 100px; border-radius: 100px; margin: 10px; opacity: 0.9;"/>
-        <p>85 route de beauvoir<br/>85300 Pont habert / Sallertaine</p>
+        <p>85 route de Beauvoir<br/>85300 Pont Habert / Sallertaine</p>
       </div>
       <div class="card">
         <h3>Partenariat</h3>

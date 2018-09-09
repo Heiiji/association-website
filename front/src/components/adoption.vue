@@ -4,19 +4,19 @@
             <div class="card">
                 <h3>Chats à adopter</h3>
                 <div class="select" style="background: url('http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0161.jpg') center; background-size: cover;">
-                    <h3>Femelle né le 24 mai 2018</h3>
+                    <h3>Femelle née le 24 mai 2018</h3>
                 </div>
                 <div class="select" style="background: url('http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0161.jpg') center; background-size: cover;">
-                    <h3>Femelle né le 24 mai 2018</h3>
+                    <h3>Femelle née le 24 mai 2018</h3>
                 </div>
                 <div class="select" style="background: url('http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0161.jpg') center; background-size: cover;">
-                    <h3>Femelle né le 24 mai 2018</h3>
+                    <h3>Femelle née le 24 mai 2018</h3>
                 </div>
                 <div class="select" style="background: url('http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0161.jpg') center; background-size: cover;">
-                    <h3>Femelle né le 24 mai 2018</h3>
+                    <h3>Femelle née le 24 mai 2018</h3>
                 </div>
                 <div class="select" style="background: url('http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0161.jpg') center; background-size: cover;">
-                    <h3>Femelle né le 24 mai 2018</h3>
+                    <h3>Femelle née le 24 mai 2018</h3>
                 </div>
             </div>
             <div class="card">

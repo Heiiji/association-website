@@ -3,7 +3,7 @@
         <div class="menu">
             <router-link to="/">
                 <img alt="logo" src="../assets/logo.jpeg"/>
-                <span style="position: absolute; left: 220px; bottom: 10px; color: black; font-size: 0.8em;">(Association loi 1901)</span>
+                <span style="position: absolute; left: 40px; bottom: 3px; color: black; font-size: 0.8em;">(Association loi 1901)</span>
             </router-link>
             <div class="container">
                 <router-link to="/">
@@ -13,12 +13,12 @@
                     <span class="menuIter">Adopter</span>
                 </router-link>
                 <router-link to="/aide">
-                    <span class="menuIter">Informations</span>
+                    <span class="menuIter">Chats perdu</span>
                 </router-link>
                 <router-link to="/aide">
                     <span class="menuIter">Nous aider</span>
                 </router-link>
-                <img alt="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" />
+                <a href="https://www.facebook.com/chat.alors.85" target="_blank"><img alt="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" /></a>
             </div>
         </div>
     </div>
