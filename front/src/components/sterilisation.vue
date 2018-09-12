@@ -2,7 +2,7 @@
     <div class="main">
         <div class="gCol">
             <div class="card">
-                <img alt="icon" src="../assets/stérilisation.png" style="float: right; width: 150px; margin: 20px"/>
+                <img alt="icon" src="../assets/stérilisation.png" style="float: right; width: 120px; margin: 20px;"/>
                 <p style="text-align: left">
                     RAPPEL : On a trop souvent tendance à considérer nos animaux comme des personnes, or ce n’est pas le cas :
                 </p>
@@ -87,6 +87,7 @@
         margin: 10px;
     }
     .card {
+        position: relative;
         background-color: rgba(230, 230, 230, 0.9);
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         border-radius: 5px;

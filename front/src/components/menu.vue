@@ -3,7 +3,7 @@
         <div class="menu">
             <router-link to="/">
                 <img alt="logo" src="../assets/logo.jpeg"/>
-                <span style="position: absolute; left: 40px; bottom: 3px; color: black; font-size: 0.8em;">(Association loi 1901)</span>
+                <span style="position: absolute; left: 10px; bottom: 0px; color: black; font-size: 0.8em;">(Association loi 1901)</span>
             </router-link>
             <div class="container">
                 <router-link to="/">
@@ -12,7 +12,7 @@
                 <router-link to="/adoption">
                     <span class="menuIter">Adopter</span>
                 </router-link>
-                <router-link to="/aide">
+                <router-link to="/sauvage">
                     <span class="menuIter">Chats perdu</span>
                 </router-link>
                 <router-link to="/aide">
@@ -53,6 +53,10 @@
         display: inline-block;
         padding-top: 30px;
         float: right;
+        text-align: right;
+        position: absolute;
+        top:0px;
+        right: 0px;
     }
     .menuIter {
         cursor: pointer;

@@ -64,12 +64,12 @@
         <p style="text-align: left; margin-left: 10px;">10 novembre 2018 : Vide-grenier</p>
         <p style="text-align: left; margin-left: 10px;">8 decembre 2018 : Vide-grenier</p>
         <img src="http://www.animauxdico.com/img/charte_graphique/chat.jpg" alt="ico" style="height: 100px; width: 100px; border-radius: 100px; margin: 10px; opacity: 0.9;"/>
-        <p>85 route de Beauvoir<br/>85300 Pont Habert / Sallertaine</p>
+        <p>85 route de Beauvoir <br/> Pont Habert 85300 Sallertainee</p>
       </div>
       <div class="card">
         <h3>Partenariat</h3>
         <p>Achetez sur zooplus.fr pour aider l'assiociation. Entre 3% et 4% du prix de vos achats seront reversés à l'association.</p>
-        <img alt="zooplus" src="https://marketing.net.zooplus.fr/ts/i3971185/tsv?amc=con.zooplus.382132.395161.16711&tst=!!TIMESTAMP!!" style="border-radius: 2px;" />
+        <a style="color: #000000;" href="https://marketing.net.zooplus.fr/ts/i3971185/tsc?amc=con.zooplus.382132.395161.16711&amp;tst=!!TIMESTAMP!!" target="_blank"><br><img class="alignright" src="https://marketing.net.zooplus.fr/ts/i3971185/tsv?amc=con.zooplus.382132.395161.16711&amp;tst=!!TIMESTAMP!!" alt="www.zooplus.fr - Mon Animalerie en Ligne" border="0"></a>
       </div>
       <div class="card">
         <h3 style="color: darkred;">L'abandon</h3>

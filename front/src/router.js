@@ -7,6 +7,7 @@ import Pathologie from './components/pathologie';
 import Guide from './components/guide';
 import Sauvage from './components/sauvage';
 import Sterilisation from './components/sterilisation';
+import Login from './components/login';
 
 Vue.use(Router);
 
@@ -46,6 +47,11 @@ export default new Router({
             path: '/sterilisation',
             name: 'Sterilisation',
             component: Sterilisation
+        },
+        {
+            path: '/auth',
+            name: 'auth',
+            component: Login
         }
     ]
 });

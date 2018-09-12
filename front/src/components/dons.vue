@@ -21,6 +21,9 @@
 
                         N’hésitez pas, il n’y a pas de grande ou petite aide, une heure de temps en temps, cela nous va très bien !</p>
                 </li>
+                <div style="text-align: center">
+                    <img alt="sensibilisation" src="http://www.chat-alors.fr/wp-content/uploads/2018/09/banniere-benevolat-pour-site-web1.jpg" width="500" style="display: inline-block"/>
+                </div>
                 <li>Legs
                     <p style="margin-left:100px">Vous n’avez pas ou plus de famille, plutôt que de grossir les caisses de l’état, vous pouvez donner à une association comme la notre sans aucun frais de succession :
 
@@ -35,7 +38,7 @@
                     <img style="margin-left: 100px; margin-top: 10px" alt="paypal" src="https://pouruneautreeconomie.fr/wp-content/uploads/2017/05/paypal-avis.png" width="100" />
                 </li>
             </ul>
-            <p>Ouverture de l'association (85 route de Beauvoir, 85300 Pont habert / Sallertaine) : <br/> Mardi et Mercredi, entre 14H30 et 17H30 ou sur Rendez-vous.</p>
+            <p>Ouverture de l'association (85 route de Beauvoir / Pont Habert 85300 Sallertaine) : <br/> Mardi et Mercredi, entre 14H30 et 17H30 ou sur Rendez-vous.</p>
             <h3 style="margin-top: 100px">Un grand merci par avance de la part de tous nos petits félins ainsi que de tous les membres de l’association  </h3>
         </div>
     </div>
