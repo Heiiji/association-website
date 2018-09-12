@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+  @import url('https://fonts.googleapis.com/css?family=Cardo');
   @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
   html {
     background: #F7F8F8;  /* fallback for old browsers */
@@ -27,15 +27,16 @@ export default {
     background: linear-gradient(to top, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   html, body {
-    font-family: 'Comfortaa';
+    font-family: 'Cardo';
     min-height: 100%;
+    font-size: 1.02em;
   }
   a {
     text-decoration: none;
   }
   h1, h2, h3 {
     font-family: 'Lobster Two';
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 #app {
   -webkit-font-smoothing: antialiased;

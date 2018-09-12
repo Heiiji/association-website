@@ -38,20 +38,20 @@
                         <v-container>
                             <v-flex xs12>
                                 <v-text-field
-                                        label="email"
+                                        label="e-mail"
                                         outline
                                 ></v-text-field>
                                 <v-text-field
-                                        label="name"
+                                        label="nom"
                                         outline
                                 ></v-text-field>
                                 <v-textarea
                                         outline
                                         name="corpus"
-                                        label="Your message"
+                                        label="votre message"
                                 ></v-textarea>
                                 <div>
-                                    <v-btn small color="green">Send</v-btn>
+                                    <v-btn small color="green">Envoyer</v-btn>
                                 </div>
                             </v-flex>
                         </v-container>

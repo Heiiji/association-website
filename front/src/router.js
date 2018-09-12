@@ -8,6 +8,7 @@ import Guide from './components/guide';
 import Sauvage from './components/sauvage';
 import Sterilisation from './components/sterilisation';
 import Login from './components/login';
+import Errance from './components/errance';
 
 Vue.use(Router);
 
@@ -52,6 +53,11 @@ export default new Router({
             path: '/auth',
             name: 'auth',
             component: Login
+        },
+        {
+            path: '/errance',
+            name: 'errance',
+            component: Errance
         }
     ]
 });

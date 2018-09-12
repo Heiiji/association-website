@@ -2,6 +2,25 @@
     <div class="main">
         <div class="gCol">
             <div class="card">
+                <h3>Vous avez trouvé un chat, que faire ?</h3><br/>
+                <p>
+                    Si vous avez recueilli un chat. Nous vous invitons à effectuer les démarches suivantes dans les plus brefs délais :
+                <ul>
+                    <li>Si l’animal est tatoué, contacter l’ICAD (Identification des Carnivores Domestiques) : 0810 778 778 <a href="http://i-cad.fr">i-cad.fr</a> . Vous pouvez demander gratuitement à un vétérinaire ou à un refuge de regarder si l’animal est identifié par une puce électronique</li>
+                    <li>Contactez la fourrière et le refuge les plus proches</li>
+                    <li>Faites une déclaration au commissariat</li>
+                    <li>Conduisez l’animal au commissariat, à la gendarmerie ou à la mairie si vous ne pouvez le garder plus longtemps (il sera transféré alors à la fourrière où l’on recherchera ses maîtres)</li>
+                    <li>Mettez des affichettes chez les vétérinaires et les commerçants</li>
+                    <li>Utilisez l’application pour smartphone Filalapat, lancée par l’I-CAD et dédiée aux animaux perdus/trouvés : elle permet de déclarer une disparition et donne accès aux informations de l’animal pour les mettre à jour afin qu’il soit toujours identifiable. Vous pouvez aussi utiliser l’application gratuite AnimaLost.</li>
+                    <li>Prenez contact avec la communauté Buzz My Pet pour augmenter les chances de retrouver tout de suite un animal, grâce à un système d’alerte et de géolocalisation</li>
+                    <li>Consulter la page Facebook de Pet Alert 85</li>
+                    <li>Vous pouvez utilisez notre service d’annonces du site Chat Alors ! en nous communiquant toutes les informations nécessaires pour l’identification du chat trouvé telles que photos, lieu et date à laquelle vous l’avez trouvé. Si l’animal correspond à une alerte sur le site , n’hésitez pas à vous mettre directement en relation avec le propriétaire au moyen des coordonnées renseignées. Un propriétaire attend son chat !!</li>
+                    <li>Envoyez-nous vos informations à l’adresse mail de l’association ‘chatalors1@gmail.com’.</li>
+                    <li>Nous ferons le nécessaire pour renseigner aussi vite que possible l’alerte de la disparition ou bien la découverte du chat sur cette même page !</li>
+                </ul>
+                </p>
+            </div>
+            <div class="card">
                 <h3>Comment retrouver son chat ou son chaton perdu ?</h3><br/>
                 <p>Découvrez dans ce guide toutes les étapes à suivre suite à la perte de votre chat.<br/><br/>
                     <ol>
@@ -24,7 +43,8 @@
                         Méthode de Patricia Franckhauser<br/>
                         Tyssia
                     </p>
-                <hr/>
+            </div>
+            <div class="card">
 <br/>
                     Je vous confie ici ma methode pour retrouver votre compagnon chat disparu. S’il est encore vivant, grâce à cette méthode, vous avez un maximum de chances de le retrouver rapidement.
 <br/><br/>                    J’expérimente cette methode depuis plus de 20 années d’experience de terrain. Etant actuellement responsable bénévole de protection animale, j’ai decidé de vous en faire part. J’espère que cette explication restera en ligne le plus longtemps possible car elle sera d’une grande utilité pour les gens qui ont perdu leur chat ou chaton.
@@ -57,29 +77,11 @@
                     Je souhaite également dire aux gens qui déménagent que le chat a besoin de « plusieurs mois » pour prendre ses nouvelles marques, et qu’on ne « sort pas un chat » dans son nouveau jardin dés son arrivée, on attend minima un mois et demi à 3 mois, plus si on peux avant de sortir le chat. N’oubliez pas au passage de le faire vacciner, stériliser et surtout tatouer avant de le sortir.</p>
 
                 <p style="font-size: 0.8em;">Auteur : Mlle Patricia Franckhauser (Responsable bénévole de Protection Animale)</p></div>
-            <div class="card">
-                <h3>Vous avez trouvé un chat, que faire ?</h3><br/>
-                <p>
-                    Si vous avez recueilli un chat. Nous vous invitons à effectuer les démarches suivantes dans les plus brefs délais:
-                    <ul>
-                        <li>Si l’animal est tatoué, contacter l’ICAD (Identification des Carnivores Domestiques) : 0810 778 778 <a href="http://i-cad.fr">i-cad.fr</a> . Vous pouvez demander gratuitement à un vétérinaire ou à un refuge de regarder si l’animal est identifié par une puce électronique</li>
-                        <li>Contactez la fourrière et le refuge les plus proches</li>
-                        <li>Faites une déclaration au commissariat</li>
-                        <li>Conduisez l’animal au commissariat, à la gendarmerie ou à la mairie si vous ne pouvez le garder plus longtemps (il sera transféré alors à la fourrière où l’on recherchera ses maîtres)</li>
-                        <li>Mettez des affichettes chez les vétérinaires et les commerçants</li>
-                        <li>Utilisez l’application pour smartphone Filalapat, lancée par l’I-CAD et dédiée aux animaux perdus/trouvés : elle permet de déclarer une disparition et donne accès aux informations de l’animal pour les mettre à jour afin qu’il soit toujours identifiable. Vous pouvez aussi utiliser l’application gratuite AnimaLost.</li>
-                        <li>Prenez contact avec la communauté Buzz My Pet pour augmenter les chances de retrouver tout de suite un animal, grâce à un système d’alerte et de géolocalisation</li>
-                        <li>Consulter la page Facebook de Pet Alert 85</li>
-                        <li>Vous pouvez utilisez notre service d’annonces du site Chat Alors ! en nous communiquant toutes les informations nécessaires pour l’identification du chat trouvé telles que photos, lieu et date à laquelle vous l’avez trouvé. Si l’animal correspond à une alerte sur le site , n’hésitez pas à vous mettre directement en relation avec le propriétaire au moyen des coordonnées renseignées. Un propriétaire attend son chat !!</li>
-                        <li>Envoyez-nous vos informations à l’adresse mail de l’association ‘chatalors1@gmail.com’.</li>
-                        <li>Nous ferons le nécessaire pour renseigner aussi vite que possible l’alerte de la disparition ou bien la découverte du chat sur cette même page !</li>
-                    </ul>
-                </p>
-            </div>
+
         </div>
         <div class="dCol">
             <div class="card">
-                <h3 style="color: darkred; text-align: center">Alerte disparition</h3>
+                <h3 style="color: darkred; text-align: center">Alerte disparition</h3><br/>
                 <v-layout>
                     <v-flex xs12>
                         <v-card>

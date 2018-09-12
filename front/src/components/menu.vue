@@ -13,7 +13,7 @@
                     <span class="menuIter">Adopter</span>
                 </router-link>
                 <router-link to="/sauvage">
-                    <span class="menuIter">Chats perdu</span>
+                    <span class="menuIter">Chats perdus</span>
                 </router-link>
                 <router-link to="/aide">
                     <span class="menuIter">Nous aider</span>

@@ -29,6 +29,7 @@
             </div>
             <div class="card">
                 <h3 style="color: darkgreen;">Intérêts</h3>
+                <img alt="illustration" src="http://www.chat-alors.fr/wp-content/uploads/2018/09/illustration-avantages-sterilisation-femelle.jpg" style="float: right; width: 300px"/>
                 <ul style="text-align: left">
                     <li>La suppression des chaleurs et des comportements sexuels :
 
