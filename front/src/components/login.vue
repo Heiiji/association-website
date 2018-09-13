@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <div class="card">
+        <div v-if="!logged" class="card">
             <h3>Administration</h3>
             <v-form style="width: 75%; margin-left: 12%; margin-top: 50px">
                 <v-container>
@@ -23,21 +23,32 @@
                                     @click:append="show3 = !show3"
                             ></v-text-field>
                             <div style="text-align: center">
-                                <v-btn depressed color="green">Login</v-btn>
+                                <v-btn v-on:click="login" depressed color="green">Login</v-btn>
                             </div>
                         </v-flex>
                     </v-layout>
                 </v-container>
             </v-form>
         </div>
+        <div v-else>
+            <workBoard :user="user" />
+        </div>
     </div>
 </template>
 
 <script>
+    import API from '../api';
+    import worBoard from './workBoard.vue';
+
     export default {
         name: 'Login',
+        components: {
+            workBoard: worBoard
+        },
         data () {
             return {
+                logged: false,
+                user: null,
                 email: '',
                 password: '',
                 show3: false,
@@ -49,6 +60,16 @@
                         return pattern.test(value) || 'Invalid e-mail.'
                     }
                 }
+            }
+        },
+        methods: {
+            login () {
+                API.post('/login', {password: this.password, email: this.email}).then((res) => {
+                    if (res.data.success) {
+                        this.logged = true;
+                        this.user = res.data.user
+                    }
+                });
             }
         }
     }
