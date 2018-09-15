@@ -121,7 +121,7 @@
         position: relative;
         width: 70%;
         margin-left: 15%;
-        padding-top: 100px;
+        padding-top: 30px;
     }
     .gCol {
         display: inline-block;

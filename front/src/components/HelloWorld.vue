@@ -1,5 +1,8 @@
 <template>
   <div class="main">
+    <div class="card">
+      <p style="font-size: 1.2em; font-weight: bolder">Coucou,<br/> nous avons un nouveaux site web tout mignon !!!</p>
+    </div>
     <div class="gCol">
       <div class="card">
         <h3>Qui sommes-nous ?</h3><br/>
@@ -104,7 +107,7 @@ export default {
     position: relative;
     width: 70%;
     margin-left: 15%;
-    padding-top: 100px;
+    padding-top: 40px;
   }
   .gCol {
     display: inline-block;

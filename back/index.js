@@ -7,7 +7,9 @@ const WebSocketServer = require('websocket').server;
 const mongoose        = require('mongoose');
 const bodyParser      = require('body-parser');
 const Parser          = require('rss-parser');
-const axios          = require('axios');
+const fileUpload      = require('express-fileupload');
+const axios           = require('axios');
+var path                = require('path');
 
 let parser = new Parser();
 
@@ -48,6 +50,7 @@ const app         = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
+app.use(fileUpload());
 
 console.log('server start');
 
@@ -66,6 +69,54 @@ app.get('/chats', (req, res) => {
         res.send({
             chats: chats
         });
+    });
+});
+
+app.get('/images/:name', (req, res) => {
+    res.sendFile(path.join(__dirname, './images/', req.params.name));
+});
+
+app.put('/delOne', (req, res) => {
+    console.log(req.body);
+    Chats.findById(req.body._id, (err, chat) => {
+        if (err) {
+            console.log(err);
+            return ;
+        }
+        chat.remove();
+        res.send({
+            success: true
+        });
+    });
+});
+
+app.post('/newCat', (req, res) => {
+    let hash = crypto.createHash('sha256');
+    hash.update(req.body.description + Date.now());
+
+    let filename = hash.digest('hex');
+
+    fs.writeFile('./images/' + filename + '.jpg', req.files.main.data, (err) => {
+        console.log(err)
+    });
+
+    let new_cat = new Chats({
+        bornDate: req.body.bornDate,
+        description: req.body.description,
+        img: filename,
+        state: req.body.state ? req.body.state : 'disponible'
+    });
+    new_cat.save((err) => {
+        if (err) {
+            console.log(err);
+            res.send({
+                success: false
+            });
+        } else {
+            res.send({
+                success: true
+            });
+        }
     });
 });
 

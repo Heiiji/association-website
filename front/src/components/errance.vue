@@ -123,8 +123,6 @@
                 <h4 style="text-align: center"> Loi sur l'identification</h4>
                 <br/><br/>
 
-                Identification
-                <br/><br/>
                 L’identification des chiens et des chats est obligatoire préalablement à leur cession, à titre gratuit ou onéreux. L’identification est à la charge du cédant.
                 Il en est de même, en dehors de toute cession, pour les chiens nés après le 6 janvier 1999 âgés de plus de quatre mois et pour les chats de plus de sept mois nés après le 1er janvier 2012.
                 <br/><br/>
@@ -142,10 +140,8 @@
 
 
 
-                <h4 style="text-align: center;"> Titre :Loi sur la vente des chiens et chats</h4>
+                <h4 style="text-align: center;"> Loi sur la vente des chiens et chats</h4>
                 <br/><br/><br/><br/>
-                Vente de chiens et chats
-                <br/><br/>
                 A partir du 1er janvier 2016, la règlementation concernant la protection des animaux de compagnie sera renforcée et de nouvelles obligations seront applicables pour encadrer la vente et l’élevage de chiens et de chats.
                 <br/><br/>
                 L’objectif poursuivi par le ministère en charge de l’agriculture est double. Il s’agit d’une part de protéger nos animaux de compagnie en s’assurant de leur santé et leur bien-être dans les élevages dont ils proviennent et d’autre part de protéger les acquéreurs en leur assurant une traçabilité lors de l’achat de leur animal et ainsi participer à lutter contre les trafics.
@@ -275,7 +271,7 @@
         position: relative;
         width: 70%;
         margin-left: 15%;
-        padding-top: 100px;
+        padding-top: 30px;
     }
     .gCol {
         display: inline-block;

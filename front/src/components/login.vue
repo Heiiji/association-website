@@ -18,7 +18,6 @@
                                     v-model="password"
                                     name="input-10-2"
                                     label="Password"
-                                    hint="At least 8 characters"
                                     class="input-group--focused"
                                     @click:append="show3 = !show3"
                             ></v-text-field>
