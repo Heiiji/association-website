@@ -11,14 +11,14 @@
       </div>
       <router-link to="/guide">
         <div class="cardSquare">
-          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0181.jpg" />
+          <img alt="ilu" src="../assets/adopte.jpg" />
           <h3>Guide de l'adoption</h3>
           <div class="but">en savoir plus</div>
         </div>
       </router-link>
       <router-link to="/pathologie">
         <div class="cardSquare">
-          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2018/06/DSC_0147.jpg" />
+          <img alt="ilu" src="../assets/malade.jpg" />
           <h3>Les pathologies et vaccins</h3>
           <div class="but">en savoir plus</div>
         </div>
@@ -45,14 +45,14 @@
       </div>
       <router-link to="/sterilisation">
         <div class="cardSquare">
-          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2017/05/WP_20180204_15_57_20_Pro.jpg" />
+          <img alt="ilu" src="../assets/sterilisation.jpg" />
           <h3>La stérilisation</h3>
           <div class="but">en savoir plus</div>
         </div>
       </router-link>
       <router-link to="/errance">
         <div class="cardSquare">
-          <img alt="ilu" src="http://www.chat-alors.fr/wp-content/uploads/2017/05/WP_20180204_11_22_25_Pro.jpg" />
+          <img alt="ilu" src="../assets/libre.jpg" />
           <h3>Chats errants / libres</h3>
           <div class="but">en savoir plus</div>
         </div>
@@ -65,13 +65,18 @@
     </div>
     <div class="dCol">
       <div class="card">
-        <h3>Prochaines dates</h3><br/>
-        <p style="text-align: left; margin-left: 10px;">13 octobre 2018 : Vide-grenier</p>
-        <p style="text-align: left; margin-left: 10px;">10 novembre 2018 : Vide-grenier</p>
-        <p style="text-align: left; margin-left: 10px;">8 decembre 2018 : Vide-grenier</p>
-        <img src="http://www.animauxdico.com/img/charte_graphique/chat.jpg" alt="ico" style="height: 100px; width: 100px; border-radius: 100px; margin: 10px; opacity: 0.9;"/>
-        <p>85 route de Beauvoir <br/> Pont Habert 85300 Sallertaine</p>
+        <h3>Horaires</h3><br/>
+        <p style="text-align: left; margin-left: 10px;">Lundi : 14H30 - 17H30</p>
+        <p style="text-align: left; margin-left: 10px;">Mercre 14H30 - 17H30</p>
       </div>
+        <div class="card">
+          <h3>Prochaines dates</h3><br/>
+          <p style="text-align: left; margin-left: 10px;">13 octobre 2018 : Vide-grenier</p>
+          <p style="text-align: left; margin-left: 10px;">10 novembre 2018 : Vide-grenier</p>
+          <p style="text-align: left; margin-left: 10px;">8 decembre 2018 : Vide-grenier</p>
+          <img src="http://www.animauxdico.com/img/charte_graphique/chat.jpg" alt="ico" style="height: 100px; width: 100px; border-radius: 100px; margin: 10px; opacity: 0.9;"/>
+          <p>85 route de Beauvoir <br/> Pont Habert 85300 Sallertaine</p>
+        </div>
       <div class="card">
         <h3>Partenariat</h3><br/>
         <p>Achetez sur zooplus.fr pour aider l'assiociation. Entre 3% et 4% du prix de vos achats seront reversés à l'association.</p>
@@ -101,7 +106,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .main {
     position: relative;

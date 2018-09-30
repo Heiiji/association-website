@@ -104,7 +104,8 @@ app.post('/newCat', (req, res) => {
         bornDate: req.body.bornDate,
         description: req.body.description,
         img: filename,
-        state: req.body.state ? req.body.state : 'disponible'
+        state: req.body.state ? req.body.state : 'disponible',
+        name: req.body.name ? req.body.name : 'N/A',
     });
     new_cat.save((err) => {
         if (err) {
@@ -138,22 +139,41 @@ app.post('/login', (req, res) => {
             return ;
         }
         if (!user) {
-            res.send({
-                success: false,
-                text: 'Utilisateur non trouvé'
+          console.log('hi admin')
+            Users.find({}, (err, users) => {
+              if (err) {
+                  console.log(err);
+                  res.send({
+                      success: false,
+                      text: err
+                  });
+                  return ;
+              }
+              let new_user = new Users({
+                email: req.body.email,
+                passwd: req.body.password,
+                rank: 'admin',
+              });
+              new_user.save();
+              res.send({
+                  success: true,
+                  user: new_user
+              });
+              return ;
             });
-            return ;
+        } else {
+          console.log(user)
+          if (user.passwd !== req.body.password) {
+              res.send({
+                  success: false,
+                  text: 'mot de passe invalide'
+              });
+          }
+          res.send({
+              success: true,
+              user: user
+          });
         }
-        if (user.passwd !== req.body.password) {
-            res.send({
-                success: false,
-                text: 'mot de passe invalide'
-            });
-        }
-        res.send({
-            success: true,
-            user: user
-        });
     })
 });
 

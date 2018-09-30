@@ -17,13 +17,19 @@
             <div class="gCol">
                 <div class="card">
                     <h3>Chats à adopter</h3>
-                    <div v-for="(chat, index) in chats" :key="index" v-on:click="goTo(index)" class="select" :style="{ background: 'url(\'' +  chat.img + '\') center', backgroundSize: 'cover' }">
-                        <h3>{{ chat.bornDate }}</h3>
+                    <div v-for="(chat, index) in chats" :key="index" v-if="chat.state === 'disponible'" class="select" :style="{ background: 'url(\'http://localhost:6120/images/' +  chat.img + '.jpg\') center', backgroundSize: 'cover' }">
+                        <h3>
+                            <h3>{{ chat.bornDate }}</h3>
+                        </h3>
                     </div>
                 </div>
                 <div class="card">
                     <h3>Chats à réserver (non sevrés)</h3>
-                    <h3>Il n'y en a pas pour le moment</h3>
+                      <div v-for="(chat, index) in chats" :key="index" v-if="chat.state === 'nonSevre'" class="select" :style="{ background: 'url(\'http://localhost:6120/images/' +  chat.img + '.jpg\') center', backgroundSize: 'cover' }">
+                        <h3>
+                        <h3>{{ chat.bornDate }}</h3>
+                                </h3>
+                            </div>
                 </div>
             </div>
             <div class="dCol">
@@ -31,6 +37,7 @@
                     <h3>information</h3>
                     <p>Une participation financière  de seulement 60 € pour les frais d’adoption engagés  est demandée pour un animal testé Fiv et leucose(+ 6 mois) , stérilisé, vacciné, identifié.</p>
                     <img style="width: 90%" alt="zooplus" src="http://www.chat-alors.fr/wp-content/uploads/2017/06/adoption-300x107.jpg" />
+                    <p>Les chats de moins de 6 mois sont non stérilisés et ceux ayant plus de 6 mois sont mis à l'adoption stérilisé + vacciné.</p>
                 </div>
                 <div class="card">
                     <h3>Contact</h3>
@@ -63,6 +70,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
     export default {
         name: 'Adoption',
         data: function () {
@@ -98,10 +107,19 @@
                 ]
             })
         },
+        mounted () {
+            this.getCat();
+        },
         methods: {
             goTo (target) {
                 this.selected = target;
                 this.overlay = !this.overlay;
+            },
+            getCat () {
+                axios.get('http://localhost:6120/chats').then((response) => {
+                    this.chats = response.data.chats;
+                    console.log(response)
+                });
             },
             goNext () {
                 if (this.selected < this.chats.length) {

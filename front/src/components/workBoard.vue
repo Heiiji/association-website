@@ -8,8 +8,18 @@
                 <v-card-text>
                     <v-container grid-list-md>
                         <v-layout wrap>
+                        <v-flex xs12>
+                            <h4>Nom du chat (si nécéssaire)</h4>
+                        </v-flex>
+                        <v-flex xs12>
+                          <v-text-field
+                            label="Nom"
+                            outline
+                            v-model='name'
+                          ></v-text-field>
+                        </v-flex>
                             <v-flex xs12>
-                                <h4>Date de naissance</h4>
+                                <h4>Date de naissance (si nécéssaire)</h4>
                             </v-flex>
                             <v-flex xs12>
                                 <v-date-picker style="background-color: darkgreen;" locale="fr-FR" v-model="bornDate" :landscape="landscape" :reactive="reactive"></v-date-picker>
@@ -45,6 +55,30 @@
             <div class="card">
                 <h3 style="text-align: center;">Administration</h3>
             </div>
+                <div class="card">
+                    <h3 style="">Actu : </h3>
+                    <p editeable>
+                        <v-textarea
+                                outline
+                                name="input-7-4"
+                                label="Description"
+                                v-model="actu"
+                        ></v-textarea>
+
+                    </p>
+                    <v-btn
+                            color="green"
+                            fab
+                            dark
+                            small
+                            absolute
+                            bottom
+                            right
+                            v-on:click="state = 'disponible'"
+                    >
+                        <v-icon>save</v-icon>
+                    </v-btn>
+                </div><br/><br/>
                 <div class="card" style="margin-bottom: 40px; text-align: center">
                     <h3>Chats à adopter</h3>
                     <div v-for="(chat, index) in chats" :key="index" v-if="chat.state === 'disponible'" class="select" :style="{ background: 'url(\'http://localhost:6120/images/' +  chat.img + '.jpg\') center', backgroundSize: 'cover' }">
@@ -97,9 +131,9 @@
                 <h3 style="color: darkred; text-align: center">Alerte disparition</h3><br/>
                 <v-layout>
                     <v-flex xs12>
-                        <v-card v-for="(chat, index) in lost" :key="index">
+                        <v-card v-for="(chat, index) in chats" v-if="chat.state === 'lost'" :key="index">
                             <v-img
-                                    :src="chat.img"
+                                    :src="'http://localhost:6120/images/' +  chat.img + '.jpg'"
                                     aspect-ratio="1.5"
                             ></v-img>
 
@@ -110,7 +144,7 @@
                                 </div>
                             </v-card-title>
                             <v-card-actions>
-                                <v-btn v-on:click="retrouver()" flat color="red">supprimer</v-btn>
+                                <v-btn v-on:click="idelete(index)" flat color="red">supprimer</v-btn>
                             </v-card-actions>
                         </v-card>
                     </v-flex>
@@ -123,6 +157,7 @@
                         absolute
                         bottom
                         right
+                        v-on:click="state = 'lost'; chatDialog = true"
                 >
                     <v-icon>add</v-icon>
                 </v-btn>
@@ -139,7 +174,9 @@
         name: 'workBoard',
         data: function () {
             return ({
+                actu: 'Coucou, \nnous avons un nouveaux site web tout mignon !!!',
                 file: '',
+                name: '',
                 picker: null,
                 bornDate: null,
                 description: '',
@@ -156,11 +193,6 @@
                 selected: null,
                 newStatus: '',
                 lost : [
-                    {
-                        name: 'IRIS',
-                        img: 'http://www.chat-alors.fr/wp-content/uploads/2018/04/458-169x300.jpg',
-                        description: 'petite femelle de 1 an disparue sur le secteur de Noirmoutier le 16 avril 2018. Stérilisée et identifiée par puce électronique n° 250268732092101 <br/><br/>Si vous la retrouvez , rapprochez vous d’une clinique vétérinaire qui saura retrouver son propriétaire au moyen de la lecture de la puce électronique.<br/><br/><strong>Merci pour elle et son propriétaire !</strong>'
-                    }
                 ],
                 chats : [
                     {
@@ -206,6 +238,9 @@
             onFileChanged(event) {
                 this.selectedFile = event.target.files[0];
                 this.preview = URL.createObjectURL(this.selectedFile);
+            },
+            onNameChange(ev) {
+              console.log(ev)
             },
             onRemoved() {
                 this.image = '';
@@ -253,6 +288,7 @@
                 formData.append('description', this.description);
                 formData.append('bornDate', this.bornDate);
                 formData.append('state', this.state);
+                formData.append('name', this.name);
                 axios.post('http://localhost:6120/newCat',
                     formData,
                     {
@@ -266,6 +302,8 @@
                     this.getCat();
                 }).catch(function(){
                     console.log('FAILURE!!');
+                    this.chatDialog = false;
+                    this.getCat();
                 });
             }
         }
@@ -281,7 +319,7 @@
         position: relative;
         width: 70%;
         margin-left: 15%;
-        padding-top: 40px;
+        padding-top: 10px;
     }
     .gCol {
         display: inline-block;
